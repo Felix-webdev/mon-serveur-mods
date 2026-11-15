@@ -1,0 +1,26 @@
+name: Générer mods.json
+
+on:
+  push:
+    paths:
+      - "mods/**"
+      - "config.json"
+      - "generate_manifest.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Générer le manifest
+        run: python3 generate_manifest.py
+      - name: Commit si modifié
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add mods.json
+          git diff --staged --quiet || (git commit -m "Mise à jour automatique de mods.json" && git push)
