@@ -5,7 +5,7 @@
   "mods": [
     {
       "filename": "exemple-mod-1.0.0.jar",
-      "url": "https://github.com/TON_PSEUDO/TON_DEPOT/releases/download/v1.0.0/exemple-mod-1.0.0.jar",
+      "url": "https://github.com/Felix-webdev/mon-serveur-mods/blob/main/mods.json",
       "sha256": ""
     }
   ]
