@@ -1,11 +1,11 @@
 {
   "minecraft": "1.20.1",
-  "loader": "fabric",
-  "server": "mc.monserveur.fr:25565",
+  "loader": "forge",
+  "server": "flixfactory.mcsh.gg",
   "mods": [
     {
-      "filename": "exemple-mod-1.0.0.jar",
-      "url": "https://github.com/Felix-webdev/mon-serveur-mods/blob/main/mods.json",
+      "filename": "nom-du-mod.jar",
+      "url": "https://github.com/Felix-webdev/mon-serveur-mods/releases/download/mods/nom-du-mod.jar",
       "sha256": ""
     }
   ]
