@@ -1,0 +1,122 @@
+name: Construire le launcher et le démarreur (Windows, macOS, Linux)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "launcher.py"
+      - "bootstrap.py"
+      - "installer.iss"
+      - ".github/workflows/build-launcher.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            name: Windows
+          - os: macos-latest
+            name: macOS
+          - os: ubuntu-latest
+            name: Linux
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Tkinter (Linux)
+        if: matrix.name == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y python3-tk
+
+      - name: Dépendances
+        run: pip install minecraft-launcher-lib requests customtkinter pillow certifi pyinstaller
+
+      - name: Construire le launcher (app-...)
+        run: pyinstaller --onefile --windowed --name app-${{ matrix.name }} --collect-all minecraft_launcher_lib --collect-all customtkinter launcher.py
+
+      - name: Construire le démarreur (MonLauncher-...)
+        run: pyinstaller --onefile --windowed --name MonLauncher-${{ matrix.name }} --collect-all certifi bootstrap.py
+
+      - name: Installateur Windows
+        if: matrix.name == 'Windows'
+        shell: pwsh
+        run: |
+          choco install innosetup -y --no-progress
+          & "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" installer.iss
+
+      - name: Archives macOS
+        if: matrix.name == 'macOS'
+        run: |
+          cd dist
+          rm -f app-macOS MonLauncher-macOS
+          ditto -c -k --keepParent app-macOS.app app-macOS.zip
+          ditto -c -k --keepParent MonLauncher-macOS.app MonLauncher-macOS.zip
+          rm -rf app-macOS.app MonLauncher-macOS.app
+
+      - name: Archives Linux
+        if: matrix.name == 'Linux'
+        run: |
+          cd dist
+          tar -czf app-Linux.tar.gz app-Linux
+          tar -czf MonLauncher-Linux.tar.gz MonLauncher-Linux
+          rm app-Linux MonLauncher-Linux
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ matrix.name }}
+          path: dist/*
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+
+      - name: Générer launcher.json (version + empreintes)
+        env:
+          RUN_NUMBER: ${{ github.run_number }}
+        run: |
+          python3 - <<'PY'
+          import datetime, hashlib, json, os
+          files = {}
+          for system, name in {
+              "Windows": "app-Windows.exe",
+              "macOS": "app-macOS.zip",
+              "Linux": "app-Linux.tar.gz",
+          }.items():
+              path = os.path.join("dist", name)
+              if os.path.exists(path):
+                  files[system] = {"name": name, "sha256": hashlib.sha256(open(path, "rb").read()).hexdigest()}
+          info = {
+              "version": os.environ["RUN_NUMBER"],
+              "built": datetime.datetime.utcnow().isoformat() + "Z",
+              "files": files,
+          }
+          json.dump(info, open("dist/launcher.json", "w"), indent=2)
+          print(json.dumps(info, indent=2))
+          PY
+
+      - name: Publier dans les Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: launcher
+          name: Launcher (dernière version)
+          body: |
+            **Joueurs : télécharge uniquement le fichier de ton système.**
+            - Windows : `MonLauncher-Setup.exe` (installateur recommandé) ou `MonLauncher-Windows.exe`
+            - Mac : `MonLauncher-macOS.zip`
+            - Linux : `MonLauncher-Linux.tar.gz`
+
+            Les fichiers `app-...` et `launcher.json` sont téléchargés automatiquement par le démarreur : ne pas les télécharger à la main.
+          files: dist/*
