@@ -2,11 +2,7 @@
   "minecraft": "1.20.1",
   "loader": "forge",
   "server": "flixfactory.mcsh.gg",
-  "mods": [
-    {
-      "filename": "nom-du-mod.jar",
-      "url": "https://github.com/Felix-webdev/mon-serveur-mods/releases/download/mods/nom-du-mod.jar",
-      "sha256": ""
-    }
-  ]
+  "resourcepack": "",
+  "mods": [],
+  "files": []
 }

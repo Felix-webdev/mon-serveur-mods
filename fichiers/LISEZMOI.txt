@@ -1,0 +1,15 @@
+FICHIERS TOUJOURS SYNCHRONISÉS
+
+Tout ce que tu mets ici est copié chez les joueurs au même endroit, dans leur dossier du jeu,
+et remis à jour si tu le modifies (si le joueur le change, il est restauré).
+Seuls les fichiers modifiés sont retéléchargés.
+
+Exemples (la structure reproduit celle du dossier du jeu) :
+  fichiers/resourcepacks/MonPack.zip   -> Documents/MonLauncher/resourcepacks/MonPack.zip
+  fichiers/config/monmod-common.toml   -> Documents/MonLauncher/config/monmod-common.toml
+
+Pour activer un pack de ressources automatiquement, écris son nom dans config.json :
+  "resourcepack": "MonPack.zip"
+
+Si tu retires un fichier d'ici, il est supprimé chez les joueurs.
+Ce fichier LISEZMOI.txt n'est pas envoyé aux joueurs.

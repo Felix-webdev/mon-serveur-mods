@@ -1,0 +1,10 @@
+FICHIERS PAR DÉFAUT (copiés une seule fois)
+
+Les fichiers de ce dossier sont copiés chez le joueur seulement s'ils n'existent pas encore.
+Ensuite, le joueur peut les modifier librement : ils ne sont jamais écrasés.
+
+Exemple :
+  fichiers_defaut/options.txt   -> options par défaut du jeu (langue, distance d'affichage, sons...)
+                                   copié au premier lancement seulement.
+
+Ce fichier LISEZMOI.txt n'est pas envoyé aux joueurs.
