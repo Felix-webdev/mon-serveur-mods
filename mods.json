@@ -5,6 +5,30 @@
   "resourcepack": "",
   "mods": [
     {
+      "filename": "FallingTree-1.20.1-4.3.6.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/FallingTree-1.20.1-4.3.6.jar",
+      "sha256": "3ecc00200276cf5f57e991232292c23c242f3bf32186ef7c7aa5df89d81677a7",
+      "size": 401913
+    },
+    {
+      "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
+      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
+      "size": 532063
+    },
+    {
+      "filename": "SimpleStorageNetwork-1.20.1-1.13.2.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/SimpleStorageNetwork-1.20.1-1.13.2.jar",
+      "sha256": "1db6f5595e5edc255db6800de9e0e1aa8e01e10d79d1784d549d70eb2cf53012",
+      "size": 509724
+    },
+    {
+      "filename": "StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "sha256": "5b9fc30a0c7988292bf169ce4a1379f304c97cda3fc7a226d98c2faeac0c07b8",
+      "size": 1205432
+    },
+    {
       "filename": "appliedenergistics2-forge-15.4.12.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/appliedenergistics2-forge-15.4.12.jar",
       "sha256": "b9c5928893a20d3feb0b4393e2c23d756a16d9abee24d9c14c98e6096d53844d",
@@ -57,12 +81,6 @@
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/entityculling-forge-1.12.1-mc1.20.1.jar",
       "sha256": "94f8881f696dfa73f1fe59395fca040655187ca87340747fb65cad69e13759b9",
       "size": 1528604
-    },
-    {
-      "filename": "FallingTree-1.20.1-4.3.6.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/FallingTree-1.20.1-4.3.6.jar",
-      "sha256": "3ecc00200276cf5f57e991232292c23c242f3bf32186ef7c7aa5df89d81677a7",
-      "size": 401913
     },
     {
       "filename": "femboymod-forge-0.3.0-1.20.1-forge.jar",
@@ -123,12 +141,6 @@
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/guideme-20.1.15.jar",
       "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a",
       "size": 9414827
-    },
-    {
-      "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
-      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
-      "size": 532063
     },
     {
       "filename": "ironchest-1.20.1-14.4.4.jar",
@@ -209,12 +221,6 @@
       "size": 1012808
     },
     {
-      "filename": "SimpleStorageNetwork-1.20.1-1.13.2.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/SimpleStorageNetwork-1.20.1-1.13.2.jar",
-      "sha256": "1db6f5595e5edc255db6800de9e0e1aa8e01e10d79d1784d549d70eb2cf53012",
-      "size": 509724
-    },
-    {
       "filename": "skin_changer-forge-1.20.1-0.6.6.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/skin_changer-forge-1.20.1-0.6.6.jar",
       "sha256": "fec9d0a5c2e7341187cc600f6df8c15b27b896945f17413c6dbb7f1847cf4a2e",
@@ -225,18 +231,6 @@
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
       "sha256": "591fa317c4e462039dae01967bf370acb284d5118cf5839a33f1d01b6c0def3c",
       "size": 206984
-    },
-    {
-      "filename": "StorageDrawers-forge-1.20.1-12.15.1.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/StorageDrawers-forge-1.20.1-12.15.1.jar",
-      "sha256": "5b9fc30a0c7988292bf169ce4a1379f304c97cda3fc7a226d98c2faeac0c07b8",
-      "size": 1205432
-    },
-    {
-      "filename": "tacz-forge-1.20.1-1.2.0-hotfix.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/tacz-forge-1.20.1-1.2.0-hotfix.jar",
-      "sha256": "6b26506e73cfbc8ad56c39d4da09b9463dfa7e23b8b13389b80354e526548f5d",
-      "size": 68740249
     },
     {
       "filename": "voicechat-forge-1.20.1-2.6.27.jar",
