@@ -234,6 +234,12 @@
       "size": 206984
     },
     {
+      "filename": "tacz-forge-1.20.1-1.2.0-hotfix.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/tacz-forge-1.20.1-1.2.0-hotfix.jar",
+      "sha256": "6b26506e73cfbc8ad56c39d4da09b9463dfa7e23b8b13389b80354e526548f5d",
+      "size": 68740249
+    },
+    {
       "filename": "voicechat-forge-1.20.1-2.6.27.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/voicechat-forge-1.20.1-2.6.27.jar",
       "sha256": "e48098690a01ba75e4f5549cbfda142de4513ec421001914a4a11164cceaccd0",
