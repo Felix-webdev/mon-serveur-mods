@@ -3,6 +3,247 @@
   "loader": "forge",
   "server": "flixfactory.mcsh.gg",
   "resourcepack": "",
-  "mods": [],
+  "mods": [
+    {
+      "filename": "appliedenergistics2-forge-15.4.12.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/appliedenergistics2-forge-15.4.12.jar",
+      "sha256": "b9c5928893a20d3feb0b4393e2c23d756a16d9abee24d9c14c98e6096d53844d",
+      "size": 8501298
+    },
+    {
+      "filename": "architectury-9.2.14-forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/architectury-9.2.14-forge.jar",
+      "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af",
+      "size": 580602
+    },
+    {
+      "filename": "biggerstacks-1.20.1-2026.06.17-all.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/biggerstacks-1.20.1-2026.06.17-all.jar",
+      "sha256": "70840af81e6f734a6ea9c5eecf1f540eb470e42ce8339a5f4cb381a3cfc36204",
+      "size": 1275777
+    },
+    {
+      "filename": "canary-mc1.20.1-0.3.3.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/canary-mc1.20.1-0.3.3.jar",
+      "sha256": "51f6d78dd6c7874657e5757fd2f5d780aa3cd415052ad071077b8894c6430942",
+      "size": 594191
+    },
+    {
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/cloth-config-11.1.136-forge.jar",
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2",
+      "size": 1181413
+    },
+    {
+      "filename": "connectivity-1.20.1-7.7.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/connectivity-1.20.1-7.7.jar",
+      "sha256": "c77023b250e6d7227b8c1ca92c8dd071a0d98ceadf62cfd9736cdc0eb153b4f8",
+      "size": 122337
+    },
+    {
+      "filename": "cupboard-1.20.1-4.2.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/cupboard-1.20.1-4.2.jar",
+      "sha256": "6a384b880c2429e017f83657438e1fc00d091592cc2860d6d2986094bac5d48f",
+      "size": 33422
+    },
+    {
+      "filename": "embeddium-0.3.31+mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/embeddium-0.3.31%2Bmc1.20.1.jar",
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb",
+      "size": 1320675
+    },
+    {
+      "filename": "entityculling-forge-1.12.1-mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/entityculling-forge-1.12.1-mc1.20.1.jar",
+      "sha256": "94f8881f696dfa73f1fe59395fca040655187ca87340747fb65cad69e13759b9",
+      "size": 1528604
+    },
+    {
+      "filename": "FallingTree-1.20.1-4.3.6.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/FallingTree-1.20.1-4.3.6.jar",
+      "sha256": "3ecc00200276cf5f57e991232292c23c242f3bf32186ef7c7aa5df89d81677a7",
+      "size": 401913
+    },
+    {
+      "filename": "femboymod-forge-0.3.0-1.20.1-forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/femboymod-forge-0.3.0-1.20.1-forge.jar",
+      "sha256": "932b5aaa49323e20ed76152b682eecde68879c62168f49509739ff31c8c9634f",
+      "size": 2393757
+    },
+    {
+      "filename": "ferritecore-6.0.1-forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ferritecore-6.0.1-forge.jar",
+      "sha256": "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54",
+      "size": 123034
+    },
+    {
+      "filename": "flib-1.20.1-0.0.16.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/flib-1.20.1-0.0.16.jar",
+      "sha256": "5736fd8a36fb3c69f99bae3127fb3743b68c801ffbab71a876c2a203a2c19e0e",
+      "size": 276850
+    },
+    {
+      "filename": "ftb-chunks-forge-2001.3.8.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ftb-chunks-forge-2001.3.8.jar",
+      "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02",
+      "size": 1159043
+    },
+    {
+      "filename": "ftb-essentials-forge-2001.2.4.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ftb-essentials-forge-2001.2.4.jar",
+      "sha256": "e0022bfe29dc10e373947701dae1bc4ce75ee15fe21f6d89269677fbb9aebf73",
+      "size": 157732
+    },
+    {
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ftb-library-forge-2001.2.13.jar",
+      "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7",
+      "size": 780558
+    },
+    {
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ftb-teams-forge-2001.3.2.jar",
+      "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07",
+      "size": 252579
+    },
+    {
+      "filename": "ftb-ultimine-forge-2001.1.8.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ftb-ultimine-forge-2001.1.8.jar",
+      "sha256": "b80dde55b2c91fd27f09f15ed2aefb0756c7bd704316e488ae8a06b179e85730",
+      "size": 129653
+    },
+    {
+      "filename": "geckolib-forge-1.20.1-4.8.4.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747",
+      "size": 1038209
+    },
+    {
+      "filename": "guideme-20.1.15.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/guideme-20.1.15.jar",
+      "sha256": "cf8052ab3da121012efc59a20e731c24bfe7488dfa556c9b88809f42dea3b24a",
+      "size": 9414827
+    },
+    {
+      "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
+      "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
+      "size": 532063
+    },
+    {
+      "filename": "ironchest-1.20.1-14.4.4.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ironchest-1.20.1-14.4.4.jar",
+      "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
+      "size": 311290
+    },
+    {
+      "filename": "ironfurnaces-1.20.1-4.1.8.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ironfurnaces-1.20.1-4.1.8.jar",
+      "sha256": "e457052522cef1f8644b6929a64eab96de04ce9e6e32a715f1d68d79da26d66b",
+      "size": 612921
+    },
+    {
+      "filename": "jei-1.20.1-forge-15.74.0.234.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/jei-1.20.1-forge-15.74.0.234.jar",
+      "sha256": "0bbd27c886b974be6906fe16f5e5e3ace8a87350b32e4361cca0213df1e7e86e",
+      "size": 4805946
+    },
+    {
+      "filename": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "sha256": "95c5aae4e82758d5c0ca2ba61c4cf72e9240e53f68befe8104c68fa9f9b19eed",
+      "size": 693579
+    },
+    {
+      "filename": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "sha256": "e975bdd5ed1d680e37fb2a6cda4f4eb5c42a837fa24b0cddabe7688df42c10af",
+      "size": 1246753
+    },
+    {
+      "filename": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "sha256": "9f068315ac5ae7c4b76a6ac0679cde9be59d5cbf37488a477f13b95fe1cbc37d",
+      "size": 2174615
+    },
+    {
+      "filename": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "sha256": "10deb617769e9674a767a3991af4c46afd081b5de42cee326f71ef2700a14313",
+      "size": 708634
+    },
+    {
+      "filename": "mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-mcwstairs-1.0.2-mc1.20.1forge.jar",
+      "sha256": "c952bf7b9eec89071d05da79f73459565847c65187b2f342fa0933c46605bfea",
+      "size": 554055
+    },
+    {
+      "filename": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "sha256": "7674d829d5a38d91ca68061e087fded92e976e3e461edcf75117e37a257e8f10",
+      "size": 1320692
+    },
+    {
+      "filename": "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "sha256": "3554317ad8d082a3d9fb5d8b387f5206e545323b4387ed1b93b7b3bf889def3f",
+      "size": 1864023
+    },
+    {
+      "filename": "mezz_config-1.20.1-forge-0.7.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mezz_config-1.20.1-forge-0.7.1.jar",
+      "sha256": "e7321d592293a09461f3a7dbc19d46f790c7ada63931e6f986cede87dbcbea1c",
+      "size": 387068
+    },
+    {
+      "filename": "mezz_config_gui-1.20.1-forge-mc1.20.1-0.5.11.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/mezz_config_gui-1.20.1-forge-mc1.20.1-0.5.11.jar",
+      "sha256": "ab9b8b9f64bc1a91dbcaa074f780166e9b82002e88357a5a75c0dd2013559a77",
+      "size": 756932
+    },
+    {
+      "filename": "modernfix-forge-5.27.93+mc1.20.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/modernfix-forge-5.27.93%2Bmc1.20.1.jar",
+      "sha256": "83543866ec17b2d8080bd3f288d0c12612e57e0b744c886a31d28befb12b7291",
+      "size": 1012808
+    },
+    {
+      "filename": "SimpleStorageNetwork-1.20.1-1.13.2.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/SimpleStorageNetwork-1.20.1-1.13.2.jar",
+      "sha256": "1db6f5595e5edc255db6800de9e0e1aa8e01e10d79d1784d549d70eb2cf53012",
+      "size": 509724
+    },
+    {
+      "filename": "skin_changer-forge-1.20.1-0.6.6.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/skin_changer-forge-1.20.1-0.6.6.jar",
+      "sha256": "fec9d0a5c2e7341187cc600f6df8c15b27b896945f17413c6dbb7f1847cf4a2e",
+      "size": 60904
+    },
+    {
+      "filename": "sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "sha256": "591fa317c4e462039dae01967bf370acb284d5118cf5839a33f1d01b6c0def3c",
+      "size": 206984
+    },
+    {
+      "filename": "StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/StorageDrawers-forge-1.20.1-12.15.1.jar",
+      "sha256": "5b9fc30a0c7988292bf169ce4a1379f304c97cda3fc7a226d98c2faeac0c07b8",
+      "size": 1205432
+    },
+    {
+      "filename": "tacz-forge-1.20.1-1.2.0-hotfix.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/tacz-forge-1.20.1-1.2.0-hotfix.jar",
+      "sha256": "6b26506e73cfbc8ad56c39d4da09b9463dfa7e23b8b13389b80354e526548f5d",
+      "size": 68740249
+    },
+    {
+      "filename": "voicechat-forge-1.20.1-2.6.27.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/voicechat-forge-1.20.1-2.6.27.jar",
+      "sha256": "e48098690a01ba75e4f5549cbfda142de4513ec421001914a4a11164cceaccd0",
+      "size": 4941878
+    }
+  ],
   "files": []
 }
