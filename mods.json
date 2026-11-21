@@ -6,12 +6,6 @@
   "resourcepack": "",
   "mods": [
     {
-      "filename": "ConfigurableCane-1.20-2.5.2.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ConfigurableCane-1.20-2.5.2.jar",
-      "sha256": "bf2d13b43a56d7c6d137f86d6c62744138daa4e799a06c06a8189d76ee0cbbaa",
-      "size": 45021
-    },
-    {
       "filename": "CropsOreMod.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/CropsOreMod.jar",
       "sha256": "2850c1aecd7ddaf394e7c0df4ac83d9575ac808faaeaa8dd21d3e7858cbf9823",
