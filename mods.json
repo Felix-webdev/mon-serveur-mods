@@ -186,12 +186,6 @@
       "size": 210312
     },
     {
-      "filename": "create-1.20.1-6.0.8.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/create-1.20.1-6.0.8.jar",
-      "sha256": "6fbb910c367dbce8e4fc7e5bf64b6edd4de980906ed00af8e47e4af843c0d9b0",
-      "size": 19170905
-    },
-    {
       "filename": "cupboard-1.20.1-4.2.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/cupboard-1.20.1-4.2.jar",
       "sha256": "6a384b880c2429e017f83657438e1fc00d091592cc2860d6d2986094bac5d48f",
