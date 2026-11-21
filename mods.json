@@ -258,12 +258,6 @@
       "size": 9414827
     },
     {
-      "filename": "immersive_armors-1.7.2+1.20.1-forge.jar",
-      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/immersive_armors-1.7.2%2B1.20.1-forge.jar",
-      "sha256": "e4d36920377ec184648f181bfd38c44ccf53868934284265dfa081be9c788b9b",
-      "size": 1264260
-    },
-    {
       "filename": "ironchest-1.20.1-14.4.4.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ironchest-1.20.1-14.4.4.jar",
       "sha256": "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f",
