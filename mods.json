@@ -48,6 +48,12 @@
       "size": 2529359
     },
     {
+      "filename": "HammerLib-1.20.1-20.1.50.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/HammerLib-1.20.1-20.1.50.jar",
+      "sha256": "118a192c8c215436d75bb7c64120dba7db37695ed0d823f6b4c0ba08d09325bf",
+      "size": 2445389
+    },
+    {
       "filename": "ImmediatelyFast-Forge-1.5.5+1.20.4.jar",
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar",
       "sha256": "82db19cc65b5c11a444498fb4b8cbcb0393c043e794cb5bf368631a0af765035",
@@ -82,6 +88,12 @@
       "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/SimpleStorageNetwork-1.20.1-1.13.2.jar",
       "sha256": "1db6f5595e5edc255db6800de9e0e1aa8e01e10d79d1784d549d70eb2cf53012",
       "size": 509724
+    },
+    {
+      "filename": "SolarFluxReborn-1.20.1-20.1.11.jar",
+      "url": "https://raw.githubusercontent.com/Felix-webdev/mon-serveur-mods/main/mods/SolarFluxReborn-1.20.1-20.1.11.jar",
+      "sha256": "b8460262e2e657af8ce5ea4dd85fae5e611c7685e363d58c0f4389765ff1d463",
+      "size": 286313
     },
     {
       "filename": "StorageDrawers-forge-1.20.1-12.15.1.jar",
